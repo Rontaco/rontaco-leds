@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap'); 
 *{
     margin: 0;
     padding: 0;
 }
 
 .logo-rontacoleds {
-    max-width: 60px;
+    max-width: 80px;
 }
 #barra-navegable {
     background-color: #B09B71;
 }
 #img-iconos-inicio {
-    max-width: 53px;
+    max-width: 70px;
 }
 #subfoto {
     background-color: #B09B71;
+    font-size: x-large;
+}
+#texto-index {
+    background-color: #EDDFB3;
 }
