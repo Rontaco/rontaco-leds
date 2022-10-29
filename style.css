@@ -23,5 +23,9 @@
     color: black;
     position: absolute;
     font-size: 4vw;
-    font-style: italic;
+    font-style: bold;
+    font-family: 'Inter Tight', sans-serif;
+}
+body, footer {
+    font-family: 'Inter Tight', sans-serif;
 }
