@@ -29,3 +29,10 @@
 body, footer {
     font-family: 'Inter Tight', sans-serif;
 }
+.imagen-body-nosotros{
+    width: 350px;
+    height: 250px;
+}
+.texto-body {
+    font-size: 20px;
+}
