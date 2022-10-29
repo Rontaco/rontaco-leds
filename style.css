@@ -11,6 +11,17 @@
     max-width: 70px;
 }
 #cartas-de-producto:hover {
-    transform: scale(1.3);
+    transform: scale(1.25);
     z-index: 1;
+    transition: all .25s;
+}
+.navbar-brand:hover {
+    transform: rotate(360deg) scale(1.2);
+    transition: all 3s;
+}
+.bienvenido {
+    color: black;
+    position: absolute;
+    font-size: 4vw;
+    font-style: italic;
 }
