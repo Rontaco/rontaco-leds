@@ -17,12 +17,11 @@
 }
 .navbar-brand:hover {
     transform: rotate(360deg) scale(1.2);
-    transition: all 3s;
+    transition: all 2s;
 }
 .bienvenido {
     color: black;
-    position: absolute;
-    font-size: 4vw;
+    font-size: 70px;
     font-style: bold;
     font-family: 'Inter Tight', sans-serif;
 }
