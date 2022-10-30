@@ -25,7 +25,7 @@
     font-style: bold;
     font-family: 'Inter Tight', sans-serif;
 }
-body, footer {
+body, footer, header {
     font-family: 'Inter Tight', sans-serif;
 }
 .imagen-body-nosotros{
@@ -34,4 +34,11 @@ body, footer {
 }
 .texto-body {
     font-size: 20px;
+}
+.lista-contacto {
+    list-style: none;
+    font-size: 25px;
+}
+.lista-contacto-titulo {
+    font-size: 30px;
 }
