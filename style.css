@@ -42,9 +42,16 @@ body, footer, header {
 .lista-contacto-titulo {
     font-size: 30px;
 }
+/* imagen-contacto aplica para la imagen de contacto e informacion*/
 .imagen-contacto {
     height: 300px;
 }
 #contacto-titulo {
     padding-top: 300px;
+}
+#acordeon-body {
+    font-size: 22px;
+}
+.accordion-button {
+    font-size: 40px;
 }
