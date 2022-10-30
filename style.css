@@ -42,3 +42,9 @@ body, footer, header {
 .lista-contacto-titulo {
     font-size: 30px;
 }
+.imagen-contacto {
+    height: 300px;
+}
+#contacto-titulo {
+    padding-top: 300px;
+}
