@@ -14,24 +14,76 @@
     transition: all .25s;
 }
 .navbar-brand:hover {
-    transform: rotate(360deg) scale(1.2);
+    transform: scale(1.2);
     transition: all 2s;
 }
+.sub-header {
+    font-size: 30px;
+}
+/*El max width esta puesto en 775px porque justo se rompia*/
+@media screen and (min-width: 600px)  and (max-width: 775px){
+    .sub-header {
+        font-size: 25px;
+    }  
+}
+@media screen and (max-width: 600px){
+    .sub-header {
+        font-size: 20px;
+    }  
+}
 .bienvenido {
-    color: black;
+    color: white;
     font-size: 70px;
     font-style: bold;
     font-family: 'Inter Tight', sans-serif;
+    text-shadow: -7px 6px black;
 }
 body, footer, header {
     font-family: 'Inter Tight', sans-serif;
 }
+.footer-edicion {
+    font-size: 20px;
+}
+@media screen and (max-device-width: 400px) {
+    .footer-edicion {
+        font-size: 15px;
+    }
+} 
+
 .imagen-body-nosotros{
     width: 350px;
     height: 250px;
 }
 .texto-body {
     font-size: 20px;
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .texto-body {font-size: 10px}
+    .imagen-body-nosotros {
+    width: 175px;
+    height: 125px;
+    }
+}
+@media screen and (min-width:400px) and (max-width: 600px){
+    .texto-body {font-size: 11px}
+    .imagen-body-nosotros {
+    width: 131px;
+    height: 94px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    .texto-body {font-size: 14px}
+    .imagen-body-nosotros {
+    width: 231px;
+    height: 165px;
+    }
+}
+@media screen and (max-width: 400px){
+    .texto-body {font-size: 10px}
+    .imagen-body-nosotros {
+    width: 100px;
+    height: 80px;
+    }
 }
 .lista-contacto {
     list-style: none;
@@ -40,7 +92,7 @@ body, footer, header {
 .lista-contacto-titulo {
     font-size: 30px;
 }
-/* imagen-contacto aplica para la imagen de contacto e informacion*/
+/* imagen-contacto aplica para la image||n de contacto e informacion*/
 .imagen-contacto {
     height: 300px;
 }
@@ -52,4 +104,10 @@ body, footer, header {
 }
 .accordion-button {
     font-size: 40px;
+}
+@media screen and (max-width:400px) {
+    .mapa-footer {
+        display: none;
+    }
+    
 }
