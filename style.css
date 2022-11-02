@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 #img-iconos-inicio {
     max-width: 70px;
 }
@@ -63,12 +62,18 @@ body, footer, header {
     width: 175px;
     height: 125px;
     }
+    .logo-rontacoleds{
+        max-width: 175px;
+    }
 }
 @media screen and (min-width:400px) and (max-width: 600px){
     .texto-body {font-size: 11px}
     .imagen-body-nosotros {
     width: 131px;
     height: 94px;
+    }
+    .logo-rontacoleds{
+        max-width: 175px;
     }
 }
 @media screen and (min-width: 768px) and (max-width:992px){
@@ -77,12 +82,18 @@ body, footer, header {
     width: 231px;
     height: 165px;
     }
+    .logo-rontacoleds{
+        max-width: 200px;
+    }
 }
 @media screen and (max-width: 400px){
     .texto-body {font-size: 10px}
     .imagen-body-nosotros {
     width: 100px;
     height: 80px;
+    }
+    .logo-rontacoleds{
+        max-width: 200px;
     }
 }
 .lista-contacto {
