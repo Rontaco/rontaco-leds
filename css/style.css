@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap");
+/*
+AYUDA MEMORIA TEMPORAL
+XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
+*/
+.barra-navegable {
+  background-color: #B09B71;
+  font-size: 20px;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  .logo-rontacoleds {
+    max-width: 175px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .logo-rontacoleds {
+    max-width: 200px;
+  }
+}
+/*
+AYUDA MEMORIA TEMPORAL
+XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
+*/
+.footer-edicion {
+  font-size: 20px;
+  background-color: #B09B71;
+}
+
+/*
+AYUDA MEMORIA TEMPORAL
+XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
+*/
+.sub-header {
+  background-color: nth #B09B71, gray, black, white, 2;
+  padding: 10px 10px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 10px) and (max-width: 768px) {
+  .sub-header {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .sub-header {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .sub-header {
+    font-size: 25px;
+  }
+}
+.bienvenido {
+  color: white;
+  font-size: 5rem;
+  font-style: bold;
+  font-family: "Inter Tight", sans-serif;
+  text-shadow: -5px 6px black;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+  .bienvenido {
+    display: none;
+  }
+}
+#img-iconos-inicio {
+  max-width: 70px;
+}
+
+#texto-index {
+  font-size: 50px;
+  padding: 50px 50px;
+}
+
+#cartas-de-producto:hover {
+  transform: scale(1.25);
+  z-index: 1;
+  transition: all 0.25s;
+}
+
+body .imagen-body-nosotros {
+  width: 350px;
+  height: 250px;
+}
+body .texto-nosotros {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  #texto-nosotros {
+    font-size: 10px;
+  }
+  .imagen-body-nosotros {
+    width: 175px;
+    height: 125px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  #texto-nosotros {
+    font-size: 11px;
+  }
+  .imagen-body-nosotros {
+    width: 131px;
+    height: 94px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #texto-nosotros {
+    font-size: 15px;
+  }
+  .imagen-body-nosotros {
+    width: 231px;
+    height: 165px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #texto-nosotros {
+    font-size: 10px;
+  }
+  .imagen-body-nosotros {
+    width: 100px;
+    height: 80px;
+  }
+}
+/*
+AYUDA MEMORIA TEMPORAL
+XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
+*/
+.lista-contacto {
+  list-style: none;
+  font-size: 40px;
+}
+
+.lista-contacto-titulo {
+  font-size: 40px;
+}
+
+.imagen-contacto- {
+  height: 300px;
+}
+
+#contacto-titulo {
+  padding-top: 300px;
+}
+
+.imagen-informacion {
+  height: 300px;
+}
+
+#acordeon-body {
+  font-size: 22px;
+}
+
+.accordion-button {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

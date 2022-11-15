@@ -1,0 +1,15 @@
+@import '../base/listas';
+
+.lista-contacto {
+    list-style: none;
+    font-size: nth($fontsize,5);
+}
+.lista-contacto-titulo {
+    font-size: nth($fontsize,5);
+}
+.imagen-contacto- {
+    height: 300px;
+}
+#contacto-titulo {
+    padding-top: 300px;
+}

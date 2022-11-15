@@ -1,0 +1,23 @@
+.bienvenido {
+    color: white;
+    font-size: 5rem;
+    font-style: bold;
+    font-family: 'Inter Tight', sans-serif;
+    text-shadow: -5px 6px black;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px){
+    .bienvenido
+    {display: none;}
+}
+#img-iconos-inicio {
+    max-width: 70px;
+}
+#texto-index {
+    font-size: nth($fontsize,6);
+    padding: 50px 50px;
+}

@@ -1,0 +1,20 @@
+@import '../base/listas';
+
+.sub-header{
+    background-color:nth ($colores,2);
+    padding: 10px 10px;
+    font-size: nth($fontsize,4);
+}
+@media screen and (min-width: 10px) and (max-width: 768px){
+    .sub-header
+    {font-size: nth($fontsize,3);}
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    .sub-header {
+    font-size: nth($fontsize,3);}
+}
+@media screen and (min-width: 992px) and (max-width:1200px){
+    .sub-header{
+    font-size: nth($fontsize,4);
+}
+}
