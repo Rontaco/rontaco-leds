@@ -89,46 +89,47 @@ XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
   transition: all 0.25s;
 }
 
-body .imagen-body-nosotros {
+#imagen-body-nosotros {
   width: 350px;
   height: 250px;
 }
-body .texto-nosotros {
+
+#texto-nosotros {
   font-size: 25px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  .texto-nosotros {
-    font-size: 10px;
+  #texto-nosotros {
+    font-size: 17px;
   }
-  .imagen-body-nosotros {
+  #imagen-body-nosotros {
     width: 175px;
     height: 125px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .texto-nosotros {
-    font-size: 11px;
+  #texto-nosotros {
+    font-size: 15px;
   }
-  .imagen-body-nosotros {
+  #imagen-body-nosotros {
     width: 131px;
     height: 94px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .texto-nosotros {
-    font-size: 15px;
+  #texto-nosotros {
+    font-size: 20px;
   }
-  .imagen-body-nosotros {
+  #imagen-body-nosotros {
     width: 231px;
     height: 165px;
   }
 }
 @media screen and (max-width: 400px) {
-  .texto-nosotros {
-    font-size: 10px;
+  #texto-nosotros {
+    font-size: 13px;
   }
-  .imagen-body-nosotros {
+  #imagen-body-nosotros {
     width: 100px;
     height: 80px;
   }
@@ -137,9 +138,13 @@ body .texto-nosotros {
 AYUDA MEMORIA TEMPORAL
 XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
 */
+.container-formulario {
+  font-size: 20px;
+}
+
 .lista-contacto {
   list-style: none;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .lista-contacto-titulo {
@@ -150,10 +155,22 @@ XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
   height: 300px;
 }
 
-#contacto-titulo {
-  padding-top: 300px;
+@media screen and (min-width: 1px) and (max-width: 992px) {
+  .lista-contacto-titulo {
+    font-size: 20px;
+  }
+  .lista-contacto {
+    font-size: 15px;
+  }
 }
-
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .lista-contacto-titulo {
+    font-size: 25px;
+  }
+  .lista-contacto {
+    font-size: 20px;
+  }
+}
 .imagen-informacion {
   height: 300px;
 }

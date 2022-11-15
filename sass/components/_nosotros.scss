@@ -1,38 +1,36 @@
-body{
-    .imagen-body-nosotros{
+#imagen-body-nosotros{
     width: 350px;
     height: 250px;
     }
-    .texto-nosotros{
-        font-size: nth($fontsize,4);
+#texto-nosotros{
+    font-size: nth($fontsize,4);
     }
-}
 @media screen and (min-width: 600px) and (max-width: 768px){
-        .texto-nosotros {font-size: 10px;}
-        .imagen-body-nosotros {
+        #texto-nosotros {font-size: 17px;}
+        #imagen-body-nosotros {
             width: 175px;
             height: 125px;
     }
 }
 @media screen and (min-width:400px) and (max-width: 600px){
-        .texto-nosotros {font-size: 11px;}
-        .imagen-body-nosotros {
+        #texto-nosotros {font-size: 15px;}
+        #imagen-body-nosotros {
             width: 131px;
             height: 94px;
     }
 }
 @media screen and (min-width: 768px) and (max-width:1200px){
-        .texto-nosotros {
-            font-size: 15px;
+        #texto-nosotros {
+            font-size: 20px;
         }
-        .imagen-body-nosotros {
+        #imagen-body-nosotros {
             width: 231px;
             height: 165px;
     }
 }
 @media screen and (max-width: 400px){
-        .texto-nosotros {font-size: 10px}
-        .imagen-body-nosotros {
+        #texto-nosotros {font-size: 13px}
+        #imagen-body-nosotros {
             width: 100px;
             height: 80px;
 }

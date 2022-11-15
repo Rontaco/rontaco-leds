@@ -1,8 +1,10 @@
 @import '../base/listas';
-
+.container-formulario{
+    font-size:20px ;
+}
 .lista-contacto {
     list-style: none;
-    font-size: nth($fontsize,5);
+    font-size: nth($fontsize,4);
 }
 .lista-contacto-titulo {
     font-size: nth($fontsize,5);
@@ -10,6 +12,18 @@
 .imagen-contacto- {
     height: 300px;
 }
-#contacto-titulo {
-    padding-top: 300px;
+@media screen and (min-width: 10px) and (max-width: 768px){
+
 }
+@media screen and (min-width: 1px) and (max-width:992px){
+    .lista-contacto-titulo{
+        font-size: nth($fontsize,3);}
+    .lista-contacto {
+        font-size: nth($fontsize,2);}}
+   
+@media screen and (min-width: 992px) and (max-width:1200px){
+    .lista-contacto-titulo{
+        font-size: nth($fontsize,4);}
+    .lista-contacto {
+        font-size: nth($fontsize,3);}}
+        
