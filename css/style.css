@@ -98,7 +98,7 @@ body .texto-nosotros {
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  #texto-nosotros {
+  .texto-nosotros {
     font-size: 10px;
   }
   .imagen-body-nosotros {
@@ -107,7 +107,7 @@ body .texto-nosotros {
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  #texto-nosotros {
+  .texto-nosotros {
     font-size: 11px;
   }
   .imagen-body-nosotros {
@@ -116,7 +116,7 @@ body .texto-nosotros {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  #texto-nosotros {
+  .texto-nosotros {
     font-size: 15px;
   }
   .imagen-body-nosotros {
@@ -125,7 +125,7 @@ body .texto-nosotros {
   }
 }
 @media screen and (max-width: 400px) {
-  #texto-nosotros {
+  .texto-nosotros {
     font-size: 10px;
   }
   .imagen-body-nosotros {
