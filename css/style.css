@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap");
-/*
-AYUDA MEMORIA TEMPORAL
-XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
-*/
 .barra-navegable {
   background-color: #B09B71;
   font-size: 20px;
@@ -23,19 +19,11 @@ XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
     max-width: 200px;
   }
 }
-/*
-AYUDA MEMORIA TEMPORAL
-XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
-*/
 .footer-edicion {
   font-size: 20px;
   background-color: #B09B71;
 }
 
-/*
-AYUDA MEMORIA TEMPORAL
-XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
-*/
 .sub-header {
   background-color: nth #B09B71, gray, black, white, 2;
   padding: 10px 10px;
@@ -134,10 +122,6 @@ XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
     height: 80px;
   }
 }
-/*
-AYUDA MEMORIA TEMPORAL
-XS (<768) - SM(768 -992) - MD(992 a 1200) - LG (1200 a 1920)
-*/
 .container-formulario {
   font-size: 20px;
 }
